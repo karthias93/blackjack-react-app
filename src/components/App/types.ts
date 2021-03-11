@@ -12,7 +12,7 @@ export enum Deal {
 }
 
 export enum Message {
-    hitStand = 'Hit or Stand?',
+    hitStand = 'Hit or Stick?',
     bust = 'Bust!',
     userWin = 'You Win!',
     dealerWin = 'Dealer Wins!',
