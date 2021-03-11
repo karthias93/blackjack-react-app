@@ -13,7 +13,7 @@ https://karthias93.github.io/blackjack-react-app
 ```
 git clone https://github.com/karthias93/blackjack-react-app
 cd blackjack-react-app
-npm install
+yarn
 npm start
 ```
 

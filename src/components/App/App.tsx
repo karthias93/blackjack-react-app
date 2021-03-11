@@ -242,7 +242,7 @@ const App: React.FC = () => {
             <div className={componentStyles['buttons']}>
                 <Button color="primary" onClick={resetGame} disabled={buttonState.resetDisabled} className={componentStyles['button']}>New Game</Button>
                 <Button color="primary" onClick={hit} disabled={buttonState.hitDisabled} className={componentStyles['button']}>Hit</Button>
-                <Button color="primary" onClick={stand} disabled={buttonState.standDisabled} className={componentStyles['button']}>Stand</Button>
+                <Button color="primary" onClick={stand} disabled={buttonState.standDisabled} className={componentStyles['button']}>Stick</Button>
             </div>
             <Hand title={`Your Hand (${userScore})`} cards={userCards} />
             <Hand title={`Dealer's Hand (${dealerScore})`} cards={dealerCards} />
